@@ -28,9 +28,9 @@
 
         for ($i = 1; $i <= $bilangan; $i++) {
             if ($pilihan == "ganjil" && $i % 2 != 0) {
-                echo "$i Naufal <br>";
+                echo "$i  <br>";
             } elseif ($pilihan == "genap" && $i % 2 == 0) {
-                echo "$i Naufal<br>";
+                echo "$i <br>";
             } else {
                 echo "$i<br>";
             }
